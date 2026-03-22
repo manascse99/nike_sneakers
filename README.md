@@ -1,16 +1,40 @@
-# nike_sneakers
+# Nike Sneakers App
 
-A new Flutter project.
+A Flutter-based sneaker shopping application with a clean and modern user interface. The app allows users to browse sneakers, add items to the cart, and simulate a basic shopping experience.
+
+## Features
+
+- Browse a collection of sneakers
+- Add and remove items from cart
+- Clean and responsive UI
+- Multi-platform support (Android, iOS, Web)
+
+## Tech Stack
+
+- Flutter
+- Dart
+
+## Project Structure
+
+lib/
+  components/
+  models/
+  pages/
+  services/
+  main.dart
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed
+- Dart installed
+- VS Code or Android Studio
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/manascse99/nike_sneakers.git
+cd nike_sneakers
+flutter pub get
+flutter run
